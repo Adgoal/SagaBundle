@@ -1,0 +1,36 @@
+{
+    "name": "adgoal-common/saga-bundle",
+    "type": "library",
+    "description": "Adgoal SagaBundle common library",
+    "license": ["proprietary"],
+    "require": {
+        "php": "^7.2",
+        "adgoal-common/saga": "^1.1 || ^2.0 || ^3.0"
+    },
+    "require-dev": {
+        "jakub-onderka/php-console-highlighter": "^0.4",
+        "jakub-onderka/php-parallel-lint": "^1.0",
+        "mockery/mockery": "^1.2",
+        "phpmd/phpmd": "^2.6",
+        "phpstan/phpstan": "^0.11",
+        "phpstan/phpstan-mockery": "^0.11",
+        "phpstan/phpstan-phpunit": "^0.11",
+        "phpunit/phpunit": "^8.0",
+        "roave/security-advisories": "dev-master",
+        "sensiolabs-de/deptrac-shim": "^0.5",
+        "symfony/phpunit-bridge": "*",
+        "symplify/easy-coding-standard": "^5.4",
+        "vimeo/psalm": "^3.0"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "AdgoalCommon\\SagaBundle\\": "src"
+        }
+    }
+}
