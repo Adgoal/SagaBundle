@@ -17,7 +17,6 @@ install:
 
 script:
   - docker run $DOCKER_IMAGE_TAG vendor/bin/parallel-lint ./ --exclude vendor
-  - docker run $DOCKER_IMAGE_TAG vendor/bin/deptrac analyze --formatter-graphviz=0
   - docker run $DOCKER_IMAGE_TAG vendor/bin/phpstan analyse -l 6 -c phpstan.neon src tests
   - docker run $DOCKER_IMAGE_TAG vendor/bin/psalm --config=psalm.xml
   - docker run $DOCKER_IMAGE_TAG vendor/bin/ecs check src tests
