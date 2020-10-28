@@ -15,7 +15,7 @@
         "phpstan/phpstan": "^0.11",
         "phpstan/phpstan-mockery": "^0.11",
         "phpstan/phpstan-phpunit": "^0.11",
-        "phpunit/phpunit": "^8.0",
+        "phpunit/phpunit": "^8.0 || ^9.0",
         "roave/security-advisories": "dev-master",
         "sensiolabs-de/deptrac-shim": "^0.5",
         "symfony/phpunit-bridge": "*",
