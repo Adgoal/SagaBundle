@@ -4,7 +4,7 @@
     "description": "Adgoal SagaBundle common library",
     "license": ["proprietary"],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2 || ^8.0",
         "adgoal-common/saga": "^1.1 || ^2.0 || ^3.0"
     },
     "require-dev": {
