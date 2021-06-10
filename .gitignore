@@ -1,12 +1,4 @@
-###> symfony/framework-bundle ###
-.env.local
-.env.local.php
-.env.*.local
-.env.dist
-
-var/
 vendor/
-###< symfony/framework-bundle ###
 
 ###> PhpStorm project profile ###
 .idea/
@@ -23,19 +15,11 @@ phpunit.xml
 
 ###> squizlabs/php_codesniffer ###
 .phpcs-cache
-phpcs.xml
 ###< squizlabs/php_codesniffer ###
 
 ###> sensiolabs-de/deptrac ###
 .deptrac.cache
 ###< sensiolabs-de/deptrac ###
 
-# Build data
-build/
-
-###> Phpunit ###
-bin/.phpunit
-###< Phpunit ###
-
-
 composer.lock
+.env.*
